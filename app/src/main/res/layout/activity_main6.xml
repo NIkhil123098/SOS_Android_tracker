@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:background="@color/black">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--- FrnDY --- "
+        android:layout_alignParentTop="true"
+        android:rotationX="20"
+        android:rotationY="-30"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:id="@+id/title"
+        android:textColor="@color/red"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/re"
+        android:textColor="@color/white"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/re"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="100dp">
+
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/images" />
+
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardView"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter your Name"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:drawableLeft="@drawable/ic_baseline_accessibility_new_24"
+            android:textSize="20dp"
+
+            android:background="@drawable/gradi1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Email@email.com"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/email"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/gradi1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Password"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/pass"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:textSize="20dp"
+
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:background="@drawable/gradi1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Mobile Number"
+            android:id="@+id/mob"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:maxLength="10"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:background="@drawable/gradi1"/>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradi2"
+        android:text="Update Profile"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/lin1"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/reg"
+        android:textStyle="italic"
+       android:layout_alignParentRight="true"
+        android:padding="20dp"
+        android:layout_marginRight="5dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradi2"
+        android:text="Sign Out"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/lin1"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/signout"
+        android:textStyle="italic"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:layout_marginLeft="5dp"/>
+
+    </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

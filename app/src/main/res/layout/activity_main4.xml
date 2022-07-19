@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="@color/black">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--- FrnDY --- "
+        android:layout_alignParentTop="true"
+        android:rotationX="20"
+        android:rotationY="-30"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:id="@+id/title"
+        android:textColor="@color/red"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp / Register "
+
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/re"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="~ Feel Safe wherever You go !"
+        android:layout_marginRight="40dp"
+        android:layout_below="@id/re"
+
+        android:textStyle="italic"
+        android:textSize="15dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/re1"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/re1"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter your Name"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:drawableLeft="@drawable/ic_baseline_accessibility_new_24"
+            android:textSize="20dp"
+
+            android:background="@drawable/gradi1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Email@email.com"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/email"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/gradi1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Password"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/pass"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:textSize="20dp"
+
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:background="@drawable/gradi1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Mobile Number"
+            android:id="@+id/mob"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:maxLength="10"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:background="@drawable/gradi1"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account ? "
+
+android:layout_below="@id/lin1"
+
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/a1"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sign In "
+
+        android:layout_below="@id/lin1"
+android:layout_toRightOf="@id/a1"
+
+        android:textSize="20dp"
+
+
+        android:id="@+id/a2"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/red"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradi2"
+        android:text="Register"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/a1"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/reg"
+        android:textStyle="italic"
+        android:layout_marginLeft="8dp"
+        android:padding="20dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

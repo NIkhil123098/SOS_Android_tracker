@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:background="@color/black">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--- FrnDY --- "
+        android:layout_alignParentTop="true"
+        android:rotationX="20"
+        android:rotationY="-30"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:id="@+id/title"
+        android:textColor="@color/red"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+
+        android:layout_below="@id/title"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/re"
+        android:textColor="@color/white"
+        />
+
+    <LinearLayout
+        android:id="@+id/lin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/re"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Email@email.com"
+            android:id="@+id/email"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/gradi1"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Password"
+            android:id="@+id/pass"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:padding="20dp"
+            android:textSize="20dp"
+
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:background="@drawable/gradi1"/>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not registered?"
+
+        android:layout_below="@id/lin1"
+
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+
+        android:id="@+id/a1"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sign Up Here"
+
+        android:layout_below="@id/lin1"
+        android:layout_toRightOf="@id/a1"
+
+        android:textSize="20dp"
+
+
+        android:id="@+id/a2"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/red"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradi2"
+        android:text="Login"
+        android:id="@+id/login"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/a1"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="8dp"
+        android:padding="20dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>
