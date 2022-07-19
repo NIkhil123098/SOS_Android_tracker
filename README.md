@@ -9,27 +9,41 @@ Additionally the user of the application may allow the app to track their locati
 Features 
 ------------
 
-SignUp Page :-
+SignUp Page :- 
+
+
 ![image](https://user-images.githubusercontent.com/61054037/179726648-76d42489-7dc5-48f9-8db0-0249486e95b6.png)
 
 SignIn :-
+
+
 ![image](https://user-images.githubusercontent.com/61054037/179726768-381a522e-0a5f-4d9e-9775-f9fb79b31d7d.png)
 
 Dashboard :- 
+
+
 ![image](https://user-images.githubusercontent.com/61054037/179726859-3afcf7e0-fb9b-4235-8efa-aa197b6f463d.png)
 
 Track Location : -
+
+
 ![image](https://user-images.githubusercontent.com/61054037/179726949-84d8244b-1ea3-4e01-a048-661232000588.png)
 
 Update Profile : - 
+
+
 ![image](https://user-images.githubusercontent.com/61054037/179727038-1fb84825-1ffc-43d6-99cc-1bce1c6855c0.png)
 
 
 Shake Device to call emergency nummber : -
+
+
 ![image](https://user-images.githubusercontent.com/61054037/179727183-b03659cd-dcab-499c-95b0-50e518b081f2.png)
 
 
 Share Locaiton :- 
+
+
 ![image](https://user-images.githubusercontent.com/61054037/179727505-2798b4ee-b990-45e7-9537-9fc086f1b261.png)
 
 
